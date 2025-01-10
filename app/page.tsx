@@ -44,11 +44,32 @@ export default function Home() {
 
 <h1>1. 🧳 必要な物</h1>
 ご存知? 金を稼ぐ為に金が必要です。
-まずは携帯かパソコンとインターネットが必要です。そしたらこの中から一つのウオレットが必要です。
+まずは携帯かパソコンとインターネットが必要です。
+そしたらこの中から一つのウオレットが必要です。
 
-携帯で出来ますけどまーパソコン使った方が早いし見やすい。けど携帯
+<Image src={"/meteora/wallets.png"} alt={"different wallets"}
+                          width={500}
+                          height={500}/>
 
 
+Meteoraはソルのチェインのプロトコルなのでよろしくね。
+で後はそこにお金を入れることです。まー僕はソルが好きなので結婚ソルでプレイするんですけどUSDTとかが好きな人だったらそっちのコイン使ってもオッケーです🙆。
+携帯でも出来ますけどまーパソコン使った方が早いし見やすい。けど携帯でウオレットのアプリをダウンロードしたらもちろんできます。外にいたら便利と思います。
+
+大きいマーケットキャップのコインもあるし、低いのもありますので色んなプレイができます。ただただ memecoin じゃないのでご安心。
+
+あとは自分の好きなアプリでマーケットを調べましょう。僕の場合はdexscreenerを使います。
+こちらです
+<Image src={"/meteora/dexscreener.png"} alt={"dexscreener"}
+                          width={500}
+                          height={500}/>
+
+これでどのコインを選択するのか決めます。
+
+ボーナス:少しLPとCLMMをなんだかグーグルで確認してください。まー、知らなくてもいいけれど、知っていたらもっと早くmeteoraを理解する事ができます。
+
+オッケーこれで準備できました。
+さてと、ゲームの説明に入ります。
 
 <h1>2. 👨‍🏫 Meteoraって何?</h1>
 
@@ -68,6 +89,28 @@ AとBの値段の間を横で分割する、その流動性を縦に分ける。
 
 
 <h1>3. 📕 Meteoraの使い方</h1>
+
+ではまず Meteora App,こちらに行きましょう:
+<div className="flex gap-4 items-center flex-col sm:flex-row">
+          <a
+            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
+            href="https://app.meteora.ag/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/meteora.svg"
+              alt="Vercel logomark"
+              width={20}
+              height={20}
+            />
+            Meteora へ →
+          </a>
+        </div>
+
+<Image src={"/meteora/connect.png"} alt={"connect screen"}
+                          width={900}
+                          height={500}/>
 
 
 <h1>4. 🧰 使えるツール</h1>
