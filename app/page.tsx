@@ -3,7 +3,53 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+      <header className="flex items-center justify-between w-full max-w-6xl p-4 sm:p-6 border-b border-solid border-gray-200">
+        <div className="flex items-center gap-4">
+          <Image
+            src="/jaunepomme.jpg"
+            alt="JaunePomme logo"
+            width={40}
+            height={40}
+            style={{ borderRadius: '50%' }}
+          />
+          <span className="text-lg font-bold">JaunePomme</span>
+        </div>
+        <nav className="flex gap-6 text-sm sm:text-base">
+          <a
+            href="#section1"
+            className="hover:underline text-gray-700 dark:text-gray-300"
+          >
+            🧳 必要な物
+          </a>
+          <a
+            href="#section2"
+            className="hover:underline text-gray-700 dark:text-gray-300"
+          >
+            👨‍🏫 Meteoraって何?
+          </a>
+          <a
+            href="#section3"
+            className="hover:underline text-gray-700 dark:text-gray-300"
+          >
+            📕 Meteoraの使い方
+          </a>
+          <a
+            href="#section4"
+            className="hover:underline text-gray-700 dark:text-gray-300"
+          >
+            🧰 バラバラ情報
+          </a>
+          <a
+            href="#section5"
+            className="hover:underline text-gray-700 dark:text-gray-300"
+          >
+            🌐 Meteora情報
+          </a>
+        </nav>
+      </header>
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+        <div>
+
         <Image
           src="/jaunepomme.jpg"
           alt="JaunePomme logo"
@@ -20,17 +66,11 @@ export default function Home() {
         因みに日本人じゃないので(ハーフ)、俺の日本語は少し雑(敬語苦手)と言う人多いと思うけれど、よろしくねー、相棒(笑)
         もしこのガイドが役にたったらツイッターでDMして、結構時間かけて、頑張って、変な日本語だけど書きました。
         まー、コーヒー嫌いのでC.C.Lemon、C.C.Lemonを買えるための寄付でも送っていいぞ(笑)こちらに💁 7ZwGzoPeP3N5XuKW3b2Y3Aj2zQ6Be5kyjzoDzASgo9s3
-        マジで美味いよねC.C.Lemonって
+        💁マジで美味いよねC.C.Lemonって
 
         では、相棒、準備は良いか? 行こう、遥か彼方へ。
         </p>
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li>🧳 必要な物</li>
-          <li>👨‍🏫 Meteoraって何?</li>
-          <li>📕 Meteoraの使い方</li>
-          <li>🧰 バラバラ情報</li>
-          <li>🌐 Meteora情報</li>
-        </ol>
+        </div>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
@@ -50,8 +90,10 @@ export default function Home() {
         </div>
         <div>
 
-<h1>1. 🧳 必要な物</h1>
-ご存知? 金を稼ぐ為に金が必要です。
+
+<section id="section1" className="w-full max-w-6xl">
+          <h1 className="text-2xl font-bold">1. 🧳 必要な物</h1>
+          <div>ご存知? 金を稼ぐ為に金が必要です。
 まずは携帯かパソコンとインターネットが必要です。
 そしたらこの中から一つのウオレットが必要です。
 
@@ -77,11 +119,15 @@ Meteoraはソルのチェインのプロトコルなのでよろしくね。
 ボーナス:少しLPとCLMMをなんだかグーグルで確認してください。まー、知らなくてもいいけれど、知っていたらもっと早くmeteoraを理解する事ができます。
 せめてLPぐらいを知った方が良いね。
 オッケーこれで準備できました。
+さてと、ゲームの説明に入ります。</div>
+        </section>
+
 さてと、ゲームの説明に入ります。
 
-<h1>2. 👨‍🏫 Meteoraって何?</h1>
 
-<div>
+<section id="section2" className="w-full max-w-6xl">
+          <h1 className="text-2xl font-bold">2. 👨‍🏫 Meteoraって何?</h1>
+          <div>
 諸君、そろそろお金持ちになる時がきました。
 色んなコインを買ったり売ったりする(要するにトレーダーね)と金を稼げると思いますが結構難しいと思うのでおすすめはできません。
 ビットコイン(BITCOIN)の価値と値段が上がる度にだいたい他のコインも上がります。
@@ -112,11 +158,14 @@ AとBの値段の間を横で分割する、その流動性を縦に分ける。
 さてと、ちょと説明したけど、どう言う風に使うのか教えよっか。(笑)
 
 </div>
+        </section>
 
 
-<h1>3. 📕 Meteoraの使い方</h1>
 
-ではまず Meteora App,こちらに行きましょう:
+
+<section id="section3" className="w-full max-w-6xl">
+          <h1 className="text-2xl font-bold">3.📕 Meteoraの使い方</h1>
+          <div>ではまず Meteora App,こちらに行きましょう:
 <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
             className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
@@ -308,14 +357,18 @@ Don't fade.
 <Image src={"/meteora/result.png"} alt={"result"}
                           width={800}
                           height={800}/>
-もうちろんもっと大きいサイズでやっていたらもっと儲かってた。ご自由に。
+もうちろんもっと大きいサイズでやっていたらもっと儲かってた。ご自由に。</div>
+        </section>
+
 
 
 
 
 <h1>4. 🧰 バラバラ情報</h1>
-
-たまにこう、線を引いて、自分の範囲をなんとなく計算する(Technical Analysis to言うかな):
+<section id="section4" className="w-full max-w-6xl">
+          <h1 className="text-2xl font-bold">4. 🧰 バラバラ情報</h1>
+          <div>
+          たまにこう、線を引いて、自分の範囲をなんとなく計算する(Technical Analysis to言うかな):
 <Image src={"/meteora/TA.png"} alt={"TA"}
                           width={800}
                           height={800}/>
@@ -371,10 +424,16 @@ Don't fade.
 ここで利益やポイント、今までやってきたコインの結果など、全てが書いております。
 エアドロップが2025に来るはずのでポイントを貯めてボーナスもらいましょうね。
 
+          </div>
+          </section>
 
 
- <h1>5.🌐 Meteora情報</h1>
-こっちがMeteoraのツイッター:
+
+
+<section id="section5" className="w-full max-w-6xl">
+          <h1 className="text-2xl font-bold">5.🌐 Meteora情報</h1>
+          <div>
+          こっちがMeteoraのツイッター:
 <Image src={"/meteora/meteoratwitter.png"} alt={"meteoratwitter"}
                           width={800}
                           height={800}/>
@@ -432,6 +491,10 @@ Don't fade.
 もうこれだけ知ってたら取れるぜペナントをよー(コイツ何言ってんの?笑)
 
 じゃあな、相棒、楽しかったぜ。          カ。。カッコいい。。(笑)
+
+          </div>
+          </section>
+
 
         </div>
       </main>
