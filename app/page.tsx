@@ -8,7 +8,8 @@ export default function Home() {
           src="/jaunepomme.jpg"
           alt="JaunePomme logo"
           width={180}
-          height={38}
+          height={180}
+          style={{ borderRadius: '50%' }}
           priority
         />
 
@@ -17,13 +18,16 @@ export default function Home() {
         僕(ちょと変わった日本語と面白さが回ってある; アニキと読んでくれ、へへへ)なりのMeteoraの使い方の説明書。君、運が良かったね、日本人あてに書いたぞ。これで誰か儲けたら良いなと思うから書いてみた。
         でちょっと敬語と楽しい日本語で書いとくね、楽しい文章にしたいから(笑)
         因みに日本人じゃないので(ハーフ)、俺の日本語は少し雑(敬語苦手)と言う人多いと思うけれど、よろしくねー、相棒(笑)
+        mon adresse de wallet solana 、もしこのガイドが役にたったらツイッターでDMして、へへ。
+        で金がありすぎたら、まー、コーヒー嫌いのでC.C.Lemon、C.C.Lemonを買えるための寄付でも送っていいぞ(笑)
+        では、相棒、準備は良いか? 行こう、遥か彼方へ。
         </p>
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li>🧳 必要な物</li>
           <li>👨‍🏫 Meteoraって何?</li>
           <li>📕 Meteoraの使い方</li>
-          <li>🧰 使えるツール</li>
-          <li>その他</li>
+          <li>🧰 バラバラ情報</li>
+          <li>🌐 Meteora情報</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
@@ -307,9 +311,15 @@ Don't fade.
 
 
 
-<h1>4. 🧰 使える情報</h1>
+<h1>4. 🧰 バラバラ情報</h1>
 
-みんなでやるLPなので、他の人のポジションの範囲を少し🤏分かる事ができる。
+たまにこう、線を引いて、自分の範囲をなんとなく計算する(Technical Analysis to言うかな):
+<Image src={"/meteora/TA.png"} alt={"TA"}
+                          width={800}
+                          height={800}/>
+
+
+で、みんなでやるLPなので、他の人のポジションの範囲を少し🤏分かる事ができる。
 こう言う風に見える:
 <Image src={"/meteora/pplposition.png"} alt={"pplposition"}
                           width={800}
@@ -333,24 +343,57 @@ Don't fade.
 まーあとは経験ね、最初の方は低いバッグで初めて、少し慣れてきたら、上々に額を増やそうね。
 
  <h1>5.🌐 Meteora情報</h1>
-こっちがMeteoraのツイッター
+こっちがMeteoraのツイッター:
 <Image src={"/meteora/meteoratwitter.png"} alt={"meteoratwitter"}
                           width={800}
                           height={800}/>
 
+コミュニチーもあるのでフォローした方が良いね、いろんな情報が流されるし、他のプレイヤー(人ね、笑)のプレイが見る事もできるし、
+チームからのアドバイスも貰えるし、要するにフォローした方が良い。
+<div className="flex gap-4 items-center flex-col sm:flex-row">
+          <a
+            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
+            href="https://app.meteora.ag/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/twitter.svg"
+              alt="Vercel logomark"
+              width={20}
+              height={20}
+            />
+            Twitter へ →
+          </a>
+        </div>
+
 こっちがMeteoraのDiscordの雰囲気:
 <Image src={"/meteora/meteoradiscord.png"} alt={"meteoradiscord"}
-                          width={800}
-                          height={800}/>
+                          width={300}
+                          height={300}/>
 なんか色んなチャンネルがあって、まー全て英語だけどね。
 日本人が少し現れたら日本人宛🇯🇵のチャンネル開くみたい。最近トルコ🇹🇷の開いたみたい。
 開いたらそこで話そう!!!
+ま、ツイッターのように、英語だけど金の情報も流れるし、新たなfeatureが出る時に情報もう流されるし、俺もそこにいるしへへ、ぜひ来てください。
+        <div className="flex gap-4 items-center flex-col sm:flex-row">
+          <a
+            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
+            href="https://app.meteora.ag/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/discord.svg"
+              alt="Vercel logomark"
+              width={20}
+              height={20}
+            />
+            Discord へ →
+          </a>
+        </div>
 
 
 
-
-寄付 : mon adresse de wallet solana 、もしこのガイドが役にたったらツイッターでDMしてへへ。
-で金がありすぎたら、まー、コーヒー嫌いのでC.C.Lemon、C.C.Lemonを買えるための寄付でも送っていいぞ(笑)
 
 じゃあな、相棒、楽しかったぜ。          カ。。カッコいい。。(笑)
 
