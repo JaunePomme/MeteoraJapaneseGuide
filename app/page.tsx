@@ -18,8 +18,10 @@ export default function Home() {
         僕(ちょと変わった日本語と面白さが回ってある; アニキと読んでくれ、へへへ)なりのMeteoraの使い方の説明書。君、運が良かったね、日本人あてに書いたぞ。これで誰か儲けたら良いなと思うから書いてみた。
         でちょっと敬語と楽しい日本語で書いとくね、楽しい文章にしたいから(笑)
         因みに日本人じゃないので(ハーフ)、俺の日本語は少し雑(敬語苦手)と言う人多いと思うけれど、よろしくねー、相棒(笑)
-        mon adresse de wallet solana 、もしこのガイドが役にたったらツイッターでDMして、へへ。
-        で金がありすぎたら、まー、コーヒー嫌いのでC.C.Lemon、C.C.Lemonを買えるための寄付でも送っていいぞ(笑)
+        もしこのガイドが役にたったらツイッターでDMして、結構時間かけて、頑張って、変な日本語だけど書きました。
+        まー、コーヒー嫌いのでC.C.Lemon、C.C.Lemonを買えるための寄付でも送っていいぞ(笑)こちらに💁 7ZwGzoPeP3N5XuKW3b2Y3Aj2zQ6Be5kyjzoDzASgo9s3
+        マジで美味いよねC.C.Lemonって
+
         では、相棒、準備は良いか? 行こう、遥か彼方へ。
         </p>
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
@@ -342,6 +344,35 @@ Don't fade.
 
 まーあとは経験ね、最初の方は低いバッグで初めて、少し慣れてきたら、上々に額を増やそうね。
 
+
+そうして、自分の利益とかみたかったら、こちらのウェブサイト、Geekladと言うメンバーが最高のウェブサイトを作った。
+<div className="flex gap-4 items-center flex-col sm:flex-row">
+          <a
+            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
+            href="https://geeklad.github.io/meteora-profit-analysis/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/meteora.svg"
+              alt="Vercel logomark"
+              width={20}
+              height={20}
+            />
+            Geeklad Tool へ →
+          </a>
+        </div>
+
+で自分のウオレットを入れるだけで:
+<Image src={"/meteora/geeklad2.png"} alt={"geeklad2"}
+                          width={800}
+                          height={800}/>
+
+ここで利益やポイント、今までやってきたコインの結果など、全てが書いております。
+エアドロップが2025に来るはずのでポイントを貯めてボーナスもらいましょうね。
+
+
+
  <h1>5.🌐 Meteora情報</h1>
 こっちがMeteoraのツイッター:
 <Image src={"/meteora/meteoratwitter.png"} alt={"meteoratwitter"}
@@ -353,7 +384,7 @@ Don't fade.
 <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
             className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://app.meteora.ag/"
+            href="https://x.com/MeteoraAG"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -378,7 +409,7 @@ Don't fade.
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
             className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://app.meteora.ag/"
+            href="https://discord.com/invite/meteora"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -393,7 +424,10 @@ Don't fade.
         </div>
 
 
-
+あと、こちらのDiscordに入たっら、色んな役をもらうことができます。
+ツイッターでコンテントを作ったり、僕みたい一つのコミュニティー宛に何かを作ったりとか、Bootcamp生放送のMeteoraの使い方をしたりとか、いろんな事ができます。
+それをできたら、役をもらい、新たなメンバーを手伝って、コミュニティーを最高にしましょう。
+まだまだ色んな事を話していないけど、これから少しづつコンテントを載せていきます。
 
 じゃあな、相棒、楽しかったぜ。          カ。。カッコいい。。(笑)
 
@@ -417,7 +451,7 @@ Don't fade.
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://x.com/JaunesPommes"
+          href="https://x.com/MeteoraAG"
           target="_blank"
           rel="noopener noreferrer"
         >
